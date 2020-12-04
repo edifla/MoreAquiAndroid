@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreAqui5Activity"
+    android:background="#F7F7F7">
+
+
+    <ImageView
+        android:id="@+id/png_logo"
+        android:layout_width="201dp"
+        android:layout_height="177dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/principal"
+        />
+
+    <ImageView
+        android:id="@+id/btn_novo"
+        android:layout_width="255dp"
+        android:layout_height="72dp"
+        android:layout_below="@+id/png_logo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/adicionar" />
+
+    <ImageView
+        android:id="@+id/btn_visu"
+        android:layout_width="218dp"
+        android:layout_height="119dp"
+        android:layout_below="@+id/btn_novo"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/lista" />
+
+    <ImageView
+        android:id="@+id/btn_mapa"
+        android:layout_width="202dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/btn_visu"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mapa" />
+    <ImageView
+        android:id="@+id/btn_guardar"
+        android:layout_width="202dp"
+        android:layout_height="87dp"
+        android:onClick="enviarservidor"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="106dp"
+        android:hint="Armazenar"
+        android:src="@drawable/armazenar" />
+
+
+</RelativeLayout>
+
+
